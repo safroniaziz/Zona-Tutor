@@ -55,7 +55,7 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto">
-      <img src="{{ asset('frontend/img/logo.jpeg') }}"  " alt="">
+      <img src="{{ asset('frontend/img/logo.png') }}"  " alt="">
     </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="{{asset('frontend/img/logo.png')}}" alt="" class="img-fluid"></a>-->
