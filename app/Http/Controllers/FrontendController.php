@@ -17,4 +17,12 @@ class FrontendController extends Controller
     public function tutor(){
         return view('frontend/tutor');
     }
+
+    public function article(){
+        return view('frontend/article');
+    }
+
+    public function contact(){
+        return view('frontend/contact');
+    }
 }

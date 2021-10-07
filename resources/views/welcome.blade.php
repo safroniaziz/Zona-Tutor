@@ -95,23 +95,23 @@
             <div class="row">
               <div class="col-xl-4 d-flex align-items-stretch">
                 <div class="icon-box mt-4 mt-xl-0">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Kelas Tatap Muka/Zoom</h4>
-                  <p>Siswa dapat memilih tutor yang dia inginkan, dan dapat memilih kelas apakah secara tatap muka atau via zoom</p>
+                  <i class="fa fa-book"></i>
+                  <h4>Kelas Offline & Online</h4>
+                  <p>Zona tutor menyediakan kelas offline maupun online, kelas online dapat diakses melalui aplikasi kapanpun anda mau</p>
                 </div>
               </div>
               <div class="col-xl-4 d-flex align-items-stretch">
                 <div class="icon-box mt-4 mt-xl-0">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Kelas Video Online</h4>
-                  <p>Siswa dapat belajar secara online dari mana saja melalui video tutorial yang dapat diakses dari mana dan kapan saja </p>
+                  <i class="fa fa-map-marker"></i>
+                  <h4>Temukan Tutor Terdekat</h4>
+                  <p>Temukan tutor terdekat dengan lokasi anda, filter provinsi, kota, kecamatan bahkan kelurahan yang sama atau dekat dengan anda  </p>
                 </div>
               </div>
               <div class="col-xl-4 d-flex align-items-stretch">
                 <div class="icon-box mt-4 mt-xl-0">
-                  <i class="bx bx-images"></i>
-                  <h4>Diskusi Secara Langsung</h4>
-                  <p>Jika siswa ingin bertanya mengenai kelas yang akan dipilih dapat melakukan diskusi dengan tutor bersangkutan</p>
+                  <i class="fa fa-comments-o"></i>
+                  <h4>Chat Dengan Tutor</h4>
+                  <p>Tanyakan langsung hal yang membuat anda ragu atau bingung dengan tutor dari kelas yang anda pilih</p>
                 </div>
               </div>
             </div>
@@ -291,9 +291,9 @@
             <img class="team img-fluid"  src="{{asset('assets/images/team/hilmi.png') }}" alt="">
             <div class="member-content">
               <h4>Akhyat Hilmi</h4>
-              <span>Web Development</span>
+              <span>Founder</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                "Belajar itu bukan masalah kewajiban tapi sudah menjadi bagian hidup"
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -310,9 +310,9 @@
             <img class="team img-fluid"  src="{{asset('assets/images/team/fasya.png') }}" alt="">
             <div class="member-content">
               <h4>Arina Makarimal Fasya</h4>
-              <span>Marketing</span>
+              <span>Co-Founder</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                "Belajar sepanjang hayat"
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -328,9 +328,9 @@
             <img class="team img-fluid"  src="{{asset('assets/images/team/wildan.png') }}" alt="">
             <div class="member-content">
               <h4>Wildan Pratama</h4>
-              <span>Marketing</span>
+              <span>Co-Founder</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                “Kesederhanaan adalah wujud kebahagiaan haqq”
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -346,9 +346,9 @@
             <img class="team img-fluid"  src="{{asset('assets/images/team/aziz.png') }}" alt="">
             <div class="member-content">
               <h4>Safroni Aziz Suprianto</h4>
-              <span>Marketing</span>
+              <span>Co-Founder</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                Kegagalan yang sebenarnya adalah ketika tidak pernah mencoba
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>

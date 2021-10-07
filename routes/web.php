@@ -29,6 +29,7 @@ Route::group(['prefix'  => '/'],function(){
     Route::get('/daftar_tutor',[FrontendController::class, 'tutor'])->name('tutor');
     Route::get('/artikel',[FrontendController::class, 'article'])->name('article');
     Route::get('/kontak_kami',[FrontendController::class, 'contact'])->name('contact');
+    Route::get('/article',[FrontendController::class, 'article'])->name('article');
 });
 
 Auth::routes();

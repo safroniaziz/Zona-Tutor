@@ -10,9 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('frontend/img/favicon.png') }}" rel="icon">
-  <link href="{{asset('frontend/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
-
+  <link rel="icon" href="{{ asset('frontend/img/logo.png') }}">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -66,6 +64,8 @@
           <li><a class="{{ Route::current()->getName() == "about" ? 'active' : '' }}" href="{{ route('about') }}"><i class="fa fa-info-circle"></i>&nbsp;Tentang</a></li>
           <li><a class="{{ Route::current()->getName() == "course" ? 'active' : '' }}" href="{{ route('course') }}"><i class="fa fa-list-alt"></i>&nbsp; Kursus</a></li>
           <li><a class="{{ Route::current()->getName() == "tutor" ? 'active' : '' }}" href="{{ route('tutor') }}"><i class="fa fa-users"></i>&nbsp;Tutor</a></li>
+          <li><a class="{{ Route::current()->getName() == "article" ? 'active' : '' }}" href="{{ route('article') }}"><i class="fa fa-users"></i>&nbsp;Artikel</a></li>
+          <li><a class="{{ Route::current()->getName() == "contact" ? 'active' : '' }}" href="{{ route('contact') }}"><i class="fa fa-users"></i>&nbsp;Kontak</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -92,10 +92,10 @@
           <div class="col-12 col-sm-6 col-lg-3 col-md-6 footer-contact">
             <h3>Zona Tutor</h3>
             <p>
-              Jl. Bla bla bla<br>
-              Kota Bengkulu, Bengkulu<br>
+              JL Aselia No 5 Kampung Inggris Pare<br>
+              Kediri, Jawa Timue<br>
               Indonesia <br><br>
-              <strong>Phone:</strong> +62 000000<br>
+              <strong>Telephone:</strong> +62 838 5057 8832<br>
               <strong>Email:</strong> halo@zonatutor.com<br>
             </p>
           </div>
@@ -107,6 +107,8 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Kursus</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Tutor</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Artikel</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>
             </ul>
           </div>
 

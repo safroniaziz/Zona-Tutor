@@ -626,7 +626,14 @@ section {
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
+
 }
+
+.why-us .icon-boxes .icon-box:hover {
+  cursor: pointer;
+  background-color: #ecf9f0;  
+}
+
 .why-us .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -679,6 +686,11 @@ section {
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
+}
+
+.courses .course-item:hover{
+  cursor: pointer;
+  opacity: .5;
 }
 .courses .course-content {
   padding: 15px;
